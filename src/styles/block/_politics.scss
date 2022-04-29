@@ -1,0 +1,12 @@
+.politics {
+    font-family: 'Noto Sans';
+    @include header_white;
+    @include subtitle_page;
+}
+.politics_info{
+    margin-top: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: $grey_color;
+}

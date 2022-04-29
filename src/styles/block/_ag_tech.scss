@@ -1,0 +1,49 @@
+
+.agtech_page {
+    font-family: 'Noto Sans';
+    @include header_white;
+    @include subtitle_page;
+    .subtitle {
+        display: flex;
+        position: relative;
+        &_img {
+            position: absolute;
+            left: 62.5%;
+            top: -14.48%;
+        }
+    }
+    .subtitle{
+        .about__title {
+            span{
+                font-weight: 900;
+            }
+        }
+    }
+}
+.production {
+    height: 676px;
+    background: #F0F2F5;
+    .btn_production {
+        display: flex;
+        width: 289px;
+        height: 76px;
+        padding: 25px 60px;
+        text-decoration: none;
+        margin-top: 50px;
+        &_img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        &_text {
+            font-family: 'Noto Sans';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: $white_color;
+        }
+    }
+}
+@include slider_btn;
+  
+@include group_btn;

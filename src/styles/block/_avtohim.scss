@@ -1,0 +1,132 @@
+
+
+.autohim_page {
+    font-family: 'Noto Sans';
+    @include header_white;
+    @include subtitle_page;
+    .subtitle {
+        display: flex;
+        position: relative;
+        &_img {
+            position: absolute;
+            left: 62.5%;
+            top: -14.48%;
+        }
+    }
+}
+.autohim__production {
+    font-family: 'Noto Sans';
+    margin-top: 100px;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img {
+        width: 600px;
+        height: 750px;
+    }
+    &__content {
+        width: 720px;
+        @include line;
+        @include title;
+
+        .devider {
+            margin-top: 50px;
+            
+        }
+        .about__title {
+            
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 120%;
+            color: $grey_color;
+        }
+        .about__descr {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: $dark_grey;
+        }
+    }
+    
+    
+}
+
+.autohim__iccons{
+    font-family: 'Noto Sans';
+    margin-top: 100px;
+    .about__iccons__list {
+        .component__text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: $grey_color;
+        }
+    }
+}
+
+.production {
+    &__wrapper {
+        position: relative;
+        &__image {
+            position: absolute;
+            top: 0;
+            right: -235px;
+            max-width: 840px;
+            max-height: 660px;
+        }
+        &__content {
+            .devider {
+                margin-top: 50px;
+            }
+            .content__list {
+                padding: 0;
+            }
+        }
+    }
+}
+
+.autohim__view {
+    font-family: 'Noto Sans';
+    @include line;
+    @include title;
+    
+    .about__title{
+        color: $grey_color;
+    }
+    .about__descr {
+        width: 840px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: $dark_grey;
+    }
+    &__list {
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+        list-style-type: none;
+        columns: 4 304px;
+        column-gap: 56px;
+        .view__list__item {
+            margin-bottom: 20px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: $grey_color;
+            display: flex;
+            align-items: center;
+            &::before {
+                content: '';
+                display: block;
+                width: 26px;
+                height: 1px;
+                background-color: $main_color;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+.aliance__production .avtohim__btn{
+    justify-content: flex-end;
+}

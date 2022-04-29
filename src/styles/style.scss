@@ -1,0 +1,68 @@
+// @import '~normalize.css';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+
+
+*,
+*::after ,
+*::before  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container_big {
+    max-width: 1680px;
+    margin: 0 auto;
+}
+@media (max-width: 1590px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}    
+
+@import 'block/main';
+@import 'block/header';
+@import 'block/button';
+@import 'block/about';
+@import 'block/step';
+@import 'block/contract';
+@import 'block/mark';
+@import 'block/mission';
+@import 'block/partner';
+@import 'block/blog';
+@import 'block/offer';
+@import 'block/footer';
+@import 'block/overlay';
+@import 'block/popup';
+@import 'block/about_page';
+@import 'block/contract_page';
+@import 'block/avtohim';
+@import 'block/own_product';
+@import 'block/popup_success';
+@import 'block/ag_tech';
+@import 'block/blog_page';
+@import 'block/blog_more';
+@import 'block/contact_page';
+@import 'block/politics';
+@import 'block/error_page';
+@import 'block/menu';
+
+
+
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,72 @@
+.contact_page{
+    @include header_page;
+}
+
+
+.contact_info{
+    font-family: 'Noto Sans',sans-serif;
+    &__contacts{
+        display: flex;
+        align-items: center;
+        padding: 100px 0px;
+        justify-content: space-between;
+        &__phone{
+            .phone {
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 160%;
+                text-decoration-line: underline;
+                color: $grey_color;
+            }
+        }
+        &__map,
+        &__email {
+            display: flex;
+            align-items: center;
+        }
+        &__map {
+            .map_adress {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: $grey_color;
+                text-decoration: none;
+            }
+        }
+        &__map {
+            .map__mark {
+                margin-right: 10px;
+            }
+        }
+        &__email {
+            .email__adress {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: $grey_color;
+                text-decoration: none;
+            }
+        }
+        &__email {
+            .email__icon{
+                margin-right: 10px;
+            }
+        }
+        &__social {
+            .social__vk {
+                margin-right: 15px;
+            }
+            .vk,
+            .insta {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    .map {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+}

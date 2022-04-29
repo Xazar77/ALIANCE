@@ -1,0 +1,48 @@
+
+
+.blog {
+    font-family: 'Noto Sans',sans-serif;
+    @include line;
+    @include title;
+    .title {
+        
+        margin-bottom: 50px;
+    }
+    &_wrapper {
+        .swiper-slide {
+            position: relative;
+            z-index: -1;
+            .slide__content {
+                position: absolute;
+                z-index: 1;
+                bottom: 50px;
+
+                .slide__title {
+                    width: 605px;
+                    margin: 0;
+                    margin-left: 50px;
+                    font-weight: 400;
+                    font-size: 28px;
+                    line-height: 160%;
+                    color: $white_color;
+                }
+                .slide__descr {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 160%;
+                    color: $white_color;
+                    width: 605px;
+                    margin: 0;
+                    margin-top: 10px;
+                    margin-left: 50px;
+                }
+            }
+            
+        }
+    }
+    @include slider_btn;
+  
+    @include group_btn;
+    
+    
+}

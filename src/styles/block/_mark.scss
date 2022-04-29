@@ -1,0 +1,53 @@
+
+
+.mark {
+    font-family: 'Noto Sans', sans-serif;
+    @include line;
+    @include title;
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        width: 720px;
+        height: 280px;
+        padding: 50px;
+        border: 1px solid $light_color;
+        text-decoration: none;
+        margin-bottom: 50px;
+        &:hover {
+            border: 1px solid $light_blue;
+            .img_logo{
+                .ic{
+                    fill: $light_blue;
+                }
+            }
+            .mark__text {
+                .item__subtitle {
+                    color: $light_blue;
+                }
+            }
+        }
+        .mark__text {
+            margin-left: 50px;
+            .item__subtitle {
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 160%;
+                color: $grey_color;
+                margin-left: 50px;
+            }
+            .item__descr {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: $dark_grey;
+                max-width: 310px;
+                margin-left: 50px;
+            }
+        }
+    }
+    
+}

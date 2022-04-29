@@ -1,0 +1,130 @@
+
+.about__page__header {
+    font-family: 'Noto Sans';
+    @include header_white;
+    @include subtitle_page;
+}
+
+.promo {
+    font-family: 'Noto Sans';
+    margin-top: 100px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include line;
+        @include title;
+        
+        .about__title{
+            width: 600px;
+            font-size: 60px;
+            color: $grey_color;
+        }
+        &__img{
+            width: 480px;
+            height: 480px;
+
+        }
+        .about__descr {
+            width: 840px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: $dark_grey;
+        }
+    }
+    
+}
+
+.about__page__icons {
+    .about__iccons {
+        &__list {
+            .component__text {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: $grey_color;
+            }
+        }
+    }
+}
+
+.production {
+    font-family: 'Noto Sans';
+    margin-top: 150px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__content {
+            @include line;
+            @include title;
+            .devider {
+                margin: 0;
+            }
+            .about__title{
+                width: 600px;
+                font-size: 60px;
+                color: $grey_color;
+            }
+            .about__descr {
+                width: 720px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: $dark_grey;
+            }
+            .content__list {
+                margin-top: 30px;
+                columns: 2 310px;
+                column-gap: 50px;
+                list-style-type: none;
+                .list__item {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    .item__icon {
+                        margin-right: 20px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+.aliance__production {
+    font-family: 'Noto Sans';
+    @include line;
+    @include title;
+    
+    .title{
+        width: 600px;
+        font-size: 60px;
+        color: $grey_color;
+    }
+    .aliance__descr {
+        &__list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            .aliance__list__item {
+                width: 635px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: $dark_grey;
+                margin-right: 100px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+    @include slider_btn;
+    @include group_btn;
+    
+}

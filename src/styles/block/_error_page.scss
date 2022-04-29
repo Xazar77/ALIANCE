@@ -1,0 +1,51 @@
+.error_page {
+    @include header_page;
+    .header{
+        border-bottom: 1px solid $light_color;
+    }
+}
+.error_info {
+    font-family: 'Noto Sans';
+    padding: 150px 0;
+    &{
+        text-align: center;
+    }
+    &_title{
+        font-family: 'Bebas Neue';
+        font-weight: 700;
+        font-size: 300px;
+        line-height: 100%;
+        color: $main_color;
+        margin: 0;
+    }
+    &_subtitle {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 160%;
+        color: $grey_color
+    }
+    &_descr {
+        width: 480px;
+        margin: 30px auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: $grey_color
+        
+    }
+    &_btn {
+        width: 302px;
+        height: 76px;
+        margin: 0 auto;
+        background-color: $main_color;
+        padding: 28px 0;
+        &:hover {
+            background-color: $blue_color;
+        }
+        .back {
+            text-decoration: none;
+            color: $light_color;
+        }
+    }
+    
+}

@@ -1,0 +1,58 @@
+
+
+@font-face {
+	font-family: 'Noto Sans';
+	src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+		url('NotoSans-Bold.woff') format('woff');
+		
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	src: local('Noto Sans Bold Italic'), local('NotoSans-BoldItalic'),
+		url('NotoSans-BoldItalic.woff') format('woff');
+		
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	src: local('Noto Sans Italic'), local('NotoSans-Italic'),
+		url('NotoSans-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	src: local('Noto Sans'), local('NotoSans'),
+		url('NotoSans.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Bebas Neue';
+	src: local('Bebas Neue Regular'), local('BebasNeueRegular'),
+		url('BebasNeueRegular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: local('Bebas Neue Bold'), local('BebasNeueBold'),
+		url('BebasNeueBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: local('Bebas Neue Light'), local('BebasNeueLight'),
+		url('BebasNeueLight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}

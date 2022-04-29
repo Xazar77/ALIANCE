@@ -1,0 +1,49 @@
+
+
+.mission {
+    font-family: 'Noto Sans',sans-serif;
+    margin-top: 150px;
+    // display: flex;
+    // position: relative;
+    
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+    &__img {
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+        max-width: 840px;
+        max-height: 660px;
+    }
+    &__text {
+        max-width: 840px;
+        max-height: 660px;
+        @include line;
+        @include title;
+        padding: 50px 0 50px 120px;
+        .devider {
+            margin-top: 0;
+        }
+        .title {
+            max-width: 480px;
+            margin: 0;
+            margin-top: 30px;
+        }
+        .mission__descr {
+            max-width: 720px;
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: $dark_grey;
+        }
+        
+            
+        
+    }
+    @include group_btn;
+}

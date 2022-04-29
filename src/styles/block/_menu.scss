@@ -1,0 +1,39 @@
+.menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    min-width: 80px;
+    min-height: 68px;
+    padding: 22px 28px;
+    border: 1px solid rgba(235, 235, 240, .2);
+    &_btn {
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        padding: 0;
+        .top,
+        .middle,
+        .bottom {
+            display: block;
+            height: 1px;
+            background-color: $white_color;
+            margin-top: 5px;
+        }
+        .top,
+        .bottom {
+            width: 20px;
+        }
+        .top {
+            margin-top: 0;
+        }
+        .middle {
+            width: 16px;
+        }
+        
+        
+    }
+}

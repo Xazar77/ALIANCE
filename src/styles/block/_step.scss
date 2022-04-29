@@ -1,0 +1,81 @@
+
+
+.step{
+    font-family: 'Noto Sans',sans-serif;
+    @include line;
+    @include title;
+    
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .step__item {
+            max-width: 330px;
+            &:hover {
+                .step__btn {
+                    display: flex;
+                }
+                .line {
+                    background-color: $main_color;
+                    width: 250px
+                }
+                .item__num {
+                    font-weight: 700;
+                }
+               
+            }
+            &__line{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .item__num {
+                    font-family: 'Bebas Neue', sans-serif;
+                    font-weight: 400;
+                    font-size: 48px;
+                    line-height: 120%;
+                    color: $main_color;
+                }
+                .line{
+                    display: block;
+                    width: 260px;
+                    height: 1px;
+                    background: $light_color;
+                    margin-left: 30px;
+                }
+            }
+            .item__subtitle {
+                
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 160%;
+                color: $grey_color;
+                margin-top: 30px;
+            }
+            .item__descr {
+              
+                display: block;
+                max-width: 300px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: $dark_grey;
+
+            }
+            @include group_btn;
+            .btn__line__text{
+                display: none;
+                &:hover {
+                    display: flex;
+                }
+            }
+        }
+    }
+    
+}
+.btn__group.step__btn__group {
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+@media (max-width: 1440px) {
+
+}

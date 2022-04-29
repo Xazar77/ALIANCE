@@ -1,0 +1,169 @@
+
+
+
+
+.footer {
+    font-family: 'Noto Sans',sans-serif;
+    
+    &__contacts{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 0px;
+        .footer__logo {
+            width: 200px;
+            height: 63px;
+        }
+        
+        &__phone{
+            .phone {
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 160%;
+                text-decoration-line: underline;
+                color: $grey_color;
+            }
+        }
+        
+        &__map,
+        &__email {
+            display: flex;
+            align-items: center;
+        }
+        &__map {
+            .map_adress {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: $grey_color;
+                text-decoration: none;
+            }
+        }
+        &__map {
+            .map__mark {
+                margin-right: 10px;
+            }
+        }
+        &__email {
+            .email__adress {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: $grey_color;
+                text-decoration: none;
+            }
+        }
+        &__email {
+            .email__icon{
+                margin-right: 10px;
+            }
+        }
+        &__social {
+            .social__vk {
+                margin-right: 15px;
+            }
+            .vk,
+            .insta {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    hr {
+        background:#E4E4EB;
+    }
+    &__info {
+        display: flex;
+        align-items: baseline;
+        padding: 50px 0px;
+        .contacts {
+            display: flex;
+            flex-direction: column;
+            margin-right: 131px;
+            &__list {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                margin-top: 30px;
+                margin-left: 20px;
+                columns: 2 230px;
+                column-gap: 130px;
+                
+            }
+            
+        }
+    }
+    .stamps__list {
+        list-style: none;
+        margin-right: 187px;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .list_item {
+        margin-bottom: 15px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &_link {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: $dark_grey;
+        }
+        
+
+    }
+    .subtitle {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+        color: $grey_color;
+        margin: 0;
+    }
+    .info__list {
+        display: flex;
+        flex-direction: column;
+        &__item {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 160%;
+            color: $grey_color;
+            margin-bottom: 30px;
+        }
+
+    }
+    &__politics {
+        display: flex;
+        align-items: center;
+        padding: 50px 0px;
+        .rights {
+            width: 360px;
+            margin-right: 20px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 160%;
+            color: $dark_grey;
+        }
+        .policy__text {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 160%;
+            text-decoration-line: underline;
+            color: $dark_grey;
+            margin-right: 626px;
+        }
+        .made {
+            span {
+                width: 181px;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 160%;
+                text-align: right;
+                color: $dark_grey;
+                margin-right: 10px;
+            }
+        }
+    }
+}

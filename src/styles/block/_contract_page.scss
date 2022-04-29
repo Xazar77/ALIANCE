@@ -1,0 +1,41 @@
+
+.contract_page {
+    font-family: 'Noto Sans';
+    @include header_white;
+    @include subtitle_page;
+
+}
+.seo__heading{
+    font-family: 'Noto Sans';
+    margin-top: 100px;
+    &__title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 160%;
+        color: $grey_color;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: $dark_grey;
+        margin-top: 10px;
+    }
+    &__btn {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        .btn_img {
+            margin-right: 15px;
+        }
+        .btn_descr {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 160%;
+            color: $main_color;
+        }
+    }
+}
+.contract {
+    margin-top: 100px;
+}

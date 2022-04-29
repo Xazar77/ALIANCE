@@ -1,0 +1,59 @@
+
+.popup__success {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 40px 50px;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 460px;
+    height: 698px;
+    background-color: $white_color;
+    z-index: 10;
+    @include title;
+    .about__title {
+        margin: 0;
+        margin-top: 30px;
+        width: 360px;
+        font-weight: 400;
+        font-size: 48px;
+        color: $grey_color;
+    }
+    .about__descr {
+        display: block;
+        font-family: 'Noto Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: $dark_grey;
+        width: 360px;
+        margin-top: 20px;
+    }
+    .btn {
+        display: block;
+        padding: 0;
+        
+        text-decoration: none;
+        margin-top: 30px;
+    }
+    .popup__success__btn {
+        font-family: 'Noto Sans';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 160%;
+        color: $white_color;
+        padding: 20px 98px;
+    }
+    &__close {
+        .popup__success__img {
+            width: 360px;
+            height: 310px;
+        }
+        .popup__close__img {
+            position: absolute;
+            top: 40px;
+            right: 50px;
+        }
+        
+    }
+}
